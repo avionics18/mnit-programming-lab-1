@@ -1,0 +1,8 @@
+# SAMPLE QUERIES
+# SELECT a.name, b.capital FROM countries AS a, countries AS b WHERE a.name = b.capital
+# select id, name, age, marks from student where marks > 55 join branch on student.id = branch.stud_id
+# SELECT id, name, age, marks FROM Student WHERE marks > 55 JOIN Branch ON Student.id = Branch.stud_id
+
+# select * from student where id = 10 join dept on student.id = dept.stud_id union select * from girl_stud
+
+# select * from student where age > 20 OR marks > 55 join dept on student.id = dept.stud_id union select id, name, age, marks from girl_stud where marks > 55 join dept
